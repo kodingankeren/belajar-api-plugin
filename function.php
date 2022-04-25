@@ -17,7 +17,8 @@
 			while ( $query->have_posts() ) : $query->the_post();
 				$data["id"] = get_the_ID();
 				$data["title"] = get_the_title();
-				$data["value"] = get_the_permalink();
+				$data["url"] = get_the_permalink();
+				$data["deskripsi"] = get_the_content();
 				array_push($artikel, $data);
 			endwhile;
 			wp_reset_postdata();
