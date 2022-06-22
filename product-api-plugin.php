@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: belajar api plugin
+Plugin Name: product-api-plugin
 Plugin URI: https://twitter.com/belajar-api-plugin
 Description: 
 Version: 1.0
